@@ -4,7 +4,7 @@
 ![Discord](https://img.shields.io/badge/Discord-Bot-5865F2)
 ![Gemini](https://img.shields.io/badge/Gemini-2.5%20Flash-blue)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
-
+[![TH](https://img.shields.io/badge/lang-th-red.svg)](https://github.com/zoj33e/bobby-fitbit-health-coach/blob/main/README.th.md)
 > Fitbit Premium coaching costs $10/month and isn't available in many countries, including Thailand.
 > This project provides an AI-powered health coach using your Fitbit data — for free, powered by Gemini.
 

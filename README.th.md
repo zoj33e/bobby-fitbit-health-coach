@@ -3,7 +3,7 @@
 ![Node.js](https://img.shields.io/badge/Node.js-18+-green)
 ![Discord](https://img.shields.io/badge/Discord-Bot-5865F2)
 ![Gemini](https://img.shields.io/badge/Gemini-2.5%20Flash-blue)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
 > Fitbit Premium coaching ราคา ~$10/เดือน และไม่รองรับหลายประเทศ รวมถึงไทย
 > โปรเจกต์นี้เป็นโค้ชสุขภาพ AI ที่ใช้ข้อมูล Fitbit จริงของคุณ — ฟรี ขับเคลื่อนด้วย Gemini

@@ -36,7 +36,7 @@
 
 ## 📸 ตัวอย่างจริง
 
-![Bobby Demo](https://cdn.discordapp.com/attachments/1295556410494423061/1520083551414910996/image.png)
+![Bobby Demo](https://raw.githubusercontent.com/zoj33e/bobby-fitbit-health-coach/refs/heads/main/demo.png)
 
 ---
 

@@ -333,25 +333,3 @@ health-agent/
 | `dotenv` | Environment variables |
 
 ---
-
-## 🔒 Security
-
-- **Never commit `.env`** — it contains your bot token, channel ID, and Gemini key. It's gitignored by default.
-- **Bot Token = password.** If it leaks, regenerate it immediately in the Discord Developer Portal (your channel ID and server stay the same).
-- **Google Health OAuth token** is stored at `~/.google-health-mcp/tokens.json` on your machine — outside the repo, read-only scope.
-- **Health data is never stored.** It's fetched at query time, passed to Gemini in memory, and discarded. Nothing is written to disk.
-
----
-
-## 💡 Going Further
-
-- **Evening briefing** — add a second `cron.schedule` line with a different time
-- **Multiple users** — the bot already supports multiple Discord users independently; each has their own conversation memory
-- **Always-on** — run the bot on a small VPS (e.g. a $4/month DigitalOcean droplet) so it works even when your computer is off
-- **Custom coach persona** — edit `COACH.md` to change the name, tone, language, or add sport-specific advice
-
----
-
-## 📄 License
-
-MIT

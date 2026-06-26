@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+
+# Secrets
+.env
+
+# Temp files
+.agents/temp_prompt.txt
+
+# OS
+.DS_Store
+Thumbs.db

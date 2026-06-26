@@ -1,0 +1,16 @@
+{
+  "name": "health-agent",
+  "version": "1.0.0",
+  "description": "Discord Health Coach Bot using Gemini + Google Health MCP",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3"
+  }
+}

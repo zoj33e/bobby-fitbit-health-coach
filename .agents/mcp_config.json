@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "google_health": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "google-health-mcp-unofficial"
+      ]
+    }
+  }
+}

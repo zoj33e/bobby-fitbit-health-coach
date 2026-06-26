@@ -330,9 +330,3 @@ health-agent/
 
 ---
 
-## 🔒 ความปลอดภัย
-
-- **ห้าม commit ไฟล์ `.env`** — มีบอทโทเค็น, Channel ID และ Gemini key อยู่ ถูก gitignore ไว้แล้ว
-- **Bot Token = รหัสผ่าน** ถ้าหลุด ให้ regenerate ทันทีใน Discord Developer Portal (Channel ID และเซิร์ฟเวอร์เดิมใช้ต่อได้)
-- **Google Health OAuth token** ถูกเก็บที่ `~/.google-health-mcp/tokens.json` ในเครื่องคุณ — อยู่นอก repo, read-only scope
-- **ข้อมูลสุขภาพไม่ถูกบันทึก** ดึงเฉพาะเวลาถาม ส่งไปยัง Gemini ใน memory แล้วทิ้ง ไม่มีการเขียนลง disk
